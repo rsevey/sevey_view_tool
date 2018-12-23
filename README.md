@@ -20,8 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+@copyright = SeveyViewTool::Renderer.copyright 'Ryan Sevey', 'All rights reserver'
 
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
